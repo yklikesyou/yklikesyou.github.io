@@ -40,6 +40,7 @@
   display: flex;
 }
 .header__title__kr {
+  font-family: "Noto Sans KR";
   font-size: 14px;
   opacity: 0.7;
 }
