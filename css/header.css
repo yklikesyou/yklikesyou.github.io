@@ -40,9 +40,10 @@
   display: flex;
 }
 .header__title__kr {
-  font-family: "Noto Sans KR";
-  font-size: 14px;
-  opacity: 0.7;
+  font-family: "Gothic A1";
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 0.8;
 }
 .header__back-btn {
   /* setting요소에서 header_back-btn 이렇게 되어있어서 계속 호환안됐음. 확인 잘하기 */
