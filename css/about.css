@@ -1,0 +1,28 @@
+body {
+  margin-top: 80px;
+}
+.title {
+  margin-left: 30px;
+  font-size: 50px;
+}
+.info__sections {
+  border-top: 10px solid #9e9b9b;
+  padding-top: 30px;
+  margin-bottom: 18px;
+}
+.info__list {
+  list-style: none;
+}
+.info__icon {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.info__title {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.info__setting {
+  margin-bottom: 30px;
+}

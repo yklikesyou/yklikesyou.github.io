@@ -9,7 +9,7 @@ function paintName(name) {
 }
 
 function handleSubmit(event) {
-  event.preventDefault(); // defalut 동작을 막음 - enter해도 사이트 이상해지지 않는거
+  event.preventDefault();
   const form = event.target;
   const input = form.querySelector("input");
   const value = input.value;
@@ -23,7 +23,7 @@ function paintInput() {
   input.type = "text";
   input.className = "name__input";
   const form = document.createElement("form");
-  form.addEventListener("submit", handleSubmit); //submit event있으면 handleSubmit() 실행하라
+  form.addEventListener("submit", handleSubmit);
   form.appendChild(input);
   nameContainer.appendChild(form);
 }

@@ -1,22 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Gothic+A1:400,600|Noticia+Text:400,700&display=swap");
-@import "info.css";
+@import "home.css";
 @import "header.css";
 @import "btn.css";
 @import "bigscreen.css";
-@import "comment.css";
 @import "contact.css";
+@import "about.css";
 
 * {
-  /* 모두라는 표시 */
   box-sizing: border-box;
-  /* padding추가할때 그만큼 box size 크게 만들지 말아줘. 라는 뜻
-   -> box에 padding을 여기저기에 막 붙이면, 처음에 정한 size에 계속해서 +되는 거니까*/
 }
 
 body {
   background-color: #eae5e5;
   padding: 10px 20px;
-  color: #4d4d4d; /* font color를 colorzilla 에서 선택해서 적음. 그냥 검은색 ㄴㄴ*/
+  color: #4d4d4d;
   font-family: "Noticia Text", serif;
   font-weight: 700;
 }
