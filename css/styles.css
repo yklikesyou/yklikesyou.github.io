@@ -3,7 +3,8 @@
 @import "header.css";
 @import "btn.css";
 @import "bigscreen.css";
-@import "name_input.css";
+@import "comment.css";
+@import "contact.css";
 
 * {
   /* 모두라는 표시 */

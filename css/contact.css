@@ -1,0 +1,31 @@
+/* contact */
+.contact {
+  padding: 0px;
+}
+.contact__list {
+  background-color: rgb(233, 183, 183);
+  width: 40%;
+  padding: 10px 20px;
+  right: 0px;
+  bottom: 0px;
+  border-top: 1px solid rgba(236, 203, 203, 0.822);
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.contact i {
+  padding: 5px 10px;
+  font-size: 30px;
+  color: #8b8b8b;
+}
+.contact_text {
+  font-size: 18px;
+  padding: 5px 10px;
+  color: white;
+  opacity: 0.85;
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}

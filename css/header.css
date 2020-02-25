@@ -26,7 +26,7 @@
 .header__icon {
   font-size: 14px;
   font-weight: 700;
-  padding: 0px 20px;
+  padding: 10px 20px;
   cursor: pointer; /* 아이콘에 대면 커서가 포인터모양으로 바뀜*/
   color: #8b8b8b;
 }
