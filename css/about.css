@@ -22,7 +22,7 @@ body {
 }
 
 .info__title {
-  font-size: 22px;
+  font-size: 27px;
   font-weight: 300;
   padding-bottom: 5px;
 }
@@ -35,11 +35,13 @@ body {
   display: flex;
   justify-content: space-around;
   border-top: 0.5px solid #9e9b9b;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
   margin-bottom: 5px;
 }
-
+.title_edu-column a {
+  color: #4d4d4d;
+}
 .title_edu-column i {
   color: #9e9b9b;
   font-size: 15px;
@@ -55,7 +57,7 @@ body {
 }
 .title_edu {
   padding-bottom: 15px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .title_major_list {
   font-weight: 400;
@@ -71,7 +73,12 @@ body {
 }
 .title_major_content {
   font-size: 15px;
+  padding-bottom: 5px;
 }
 .title_LIS_CS {
   padding: 15px;
+}
+.scholarships {
+  font-size: 11px;
+  font-style: oblique;
 }
