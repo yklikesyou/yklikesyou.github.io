@@ -21,8 +21,31 @@ body {
 .info__title {
   font-size: 22px;
   font-weight: 300;
+  padding-bottom: 5px;
 }
 
 .info__setting {
   margin-bottom: 30px;
+}
+
+.title_edu-column {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.5px solid #9e9b9b;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+.title_edu-column i {
+  color: #9e9b9b;
+  font-size: 15px;
+}
+.title_edu_content {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.title_edu-column p {
+  padding: 0px;
+  margin: 0px;
 }
