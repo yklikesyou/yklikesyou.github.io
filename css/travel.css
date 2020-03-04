@@ -1,0 +1,6 @@
+.title_travel,
+.title_travel i {
+  background: -webkit-linear-gradient(#00223e, #ffa17f);
+  color: transparent;
+  -webkit-background-clip: text;
+}

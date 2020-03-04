@@ -2,42 +2,46 @@ body {
   margin-top: 80px;
 }
 .info {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .title {
   margin-left: 30px;
   font-size: 50px;
+  background: -webkit-linear-gradient(#1e130c, #9a8478);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 .info__sections {
-  border-top: 7px solid #9e9b9b;
-  padding-top: 30px;
   margin-bottom: 18px;
 }
 .info__list {
   list-style: none;
 }
 .info__icon {
-  font-size: 20px;
+  font-size: 25px;
   margin-right: 20px;
 }
 
 .info__title {
   font-size: 27px;
-  font-weight: 300;
+  font-weight: 700;
   padding-bottom: 5px;
 }
 
 .info__setting {
   margin-bottom: 30px;
+  padding: 10px;
 }
-
 .title_edu-column {
   display: flex;
   justify-content: space-around;
-  border-top: 0.5px solid #9e9b9b;
+  border-top: 5px solid #9e9b9b;
   padding-top: 15px;
   padding-bottom: 10px;
   margin-bottom: 5px;
+}
+.no_border_columns {
+  border-top: 1.5px solid #9e9b9b;
 }
 .title_edu-column a {
   color: #4d4d4d;
@@ -81,4 +85,8 @@ body {
 .scholarships {
   font-size: 11px;
   font-style: oblique;
+}
+.w_experience {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
