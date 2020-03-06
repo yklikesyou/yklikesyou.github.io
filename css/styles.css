@@ -18,13 +18,6 @@ body {
   font-family: "Noticia Text", serif;
   font-weight: 700;
 }
-.body2 {
-  background-color: #c5ccda;
-  padding: 10px 20px;
-  color: whitesmoke;
-  font-family: "Noticia Text", serif;
-  font-weight: 700;
-}
 
 @keyframes fadeIn {
   from {

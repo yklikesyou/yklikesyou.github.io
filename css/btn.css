@@ -4,21 +4,6 @@
   color: #e9b1b1;
 }
 
-.home__btn2 i {
-  font-size: 20px;
-  padding: 2px 2px;
-  color: rgb(115, 196, 223);
-}
-.color_btn2 {
-  display: block;
-  font-size: 30px;
-  padding-right: 20px;
-  color: rgb(103, 192, 221);
-  position: absolute;
-  top: 18px;
-  right: 20px;
-}
-
 .color_btn {
   display: block;
   font-size: 30px;
@@ -30,8 +15,7 @@
 
 }
 
-.color_btn p,
-.color_btn2 p {
+.color_btn p{
   display: none;
   text-align: left;
   background-color: #1e2021;
@@ -48,20 +32,15 @@
 .color_btn:hover {
   color: rgb(115, 196, 223);
 }
-.color_btn2:hover {
-  color: #e9b1b1;
-}
 
-.color_btn:hover p,
-.color_btn2:hover p {
+.color_btn:hover p{
   display: block;
   transform-origin: 100% 0%;
   -webkit-animation: fadeIn 0.3s ease-in-out;
   animation: fadeIn 0.3s ease-in-out;
 }
 
-.color_btn p:before,
-.color_btn2 p:before{
+.color_btn p:before{
 	position: absolute;
 	content: '';
 	width:0;
@@ -72,8 +51,7 @@
 	top:-12px;
 }
 
-.color_btn p:after,
-.color_btn2 p:after{
+.color_btn p:after{
 	width:100%;
 	height:40px;
 	content:'';

@@ -30,33 +30,6 @@
   font-style: oblique;
 }
 
-.info__avatar2 {
-  min-height: 90%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .info__avatar2 {
-    left: 50%;
-    margin-left: -512px;
-  }
-}
-.info__greeting2 {
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  font-size: 5rem;
-  color: white;
-  z-index: 2;
-  text-align: start;
-}
-
 /* name input*/
 .center .name__input {
   appearance: none;
