@@ -36,8 +36,8 @@ body {
   display: flex;
   justify-content: space-around;
   border-top: 5px solid #9e9b9b;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 5px;
 }
 .no_border_columns {
