@@ -90,3 +90,7 @@ body {
   padding-bottom: 15px;
   padding-top: 15px;
 }
+.title_major_content{
+  text-transform: capitalize;
+
+}
