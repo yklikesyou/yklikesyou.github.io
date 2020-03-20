@@ -98,8 +98,12 @@ body {
 }
 .link{
   text-align: center;
+  display: flex;
   justify-content: center;
   padding: 10px;
   padding-top: 20px;
   margin: 0px;
+}
+.title_plist{
+  display: flex;
 }
