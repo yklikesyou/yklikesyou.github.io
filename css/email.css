@@ -1,0 +1,45 @@
+
+.submit_btn {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family:Arial;
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #2b665e;
+}
+.submit_btn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color:#6c7c7c;
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+.submit_btn:active {
+	position:relative;
+	top:1px;
+}
+
+.message{
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    font-size: 15px;
+    padding: 100px;
+
+}
+.from__input{   
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.contact{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+
+}

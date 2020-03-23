@@ -6,6 +6,7 @@
 @import "contact.css";
 @import "about.css";
 @import "school.css";
+@import "email.css";
 
 * {
   box-sizing: border-box;

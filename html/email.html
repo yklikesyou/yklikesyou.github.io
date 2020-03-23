@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init('user_8dlghnfRH4qmIhhSU9edB');
+        })();
+    </script>
+        <script
+        src="https://kit.fontawesome.com/a2d24c0aff.js"
+        crossorigin="anonymous"
+      ></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate the contact number value
+                this.contact_number.value = Math.random() * 100000 | 0;
+                emailjs.sendForm('yukyung_katie_gmail', 'template_FQ021aP7', this);
+            });
+        }
+    </script>
+        <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__header-column">
+
+          <span class="header__title">Send&ensp;Message&ensp;<i class="fas fa-envelope"></i></span>
+          <span class="header__title__kr"></span>
+        </div>   
+      </header>
+    <form id="contact-form" class="contact">
+        
+        <input type="hidden" name="contact_number" >
+        <label><small>Dear&ensp;Yukyung(Katie) Kim</small><br></label>
+        <label>From</label>
+        <input
+        type="text"
+        class="from__input"
+        placeholder="Your name"
+        name="from_name"
+        /><br><br>
+        <label>Message</label><br>
+        <textarea class="message" name="message_html"></textarea>
+        <br>
+        <input class="submit_btn"type="submit" value="Send">
+    </form>
+</body>
+</html>
+

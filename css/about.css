@@ -104,6 +104,37 @@ body {
   padding-top: 20px;
   margin: 0px;
 }
+.link2{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1.5px solid #9e9b9b;
+}
 .title_plist{
   display: flex;
+}
+
+
+.contact_text {
+  background-color: rgb(233, 183, 183);
+  background-attachment: fixed;
+  width: 314px;
+  padding: 10px 20px;
+  right: 0px;
+  bottom: 0px;
+  border-top: 1px solid rgba(236, 203, 203, 0.822);
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px;
+  opacity: 0.85;
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
 }
