@@ -121,7 +121,7 @@ body {
 .contact_text {
 	background-color:#e0a8a8;
 	border-radius:23px;
-	display:inline-block;
+  display:inline-block;
 	cursor:pointer;
 	color:whitesmoke;
 	font-size:18px;
